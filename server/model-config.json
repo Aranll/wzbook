@@ -1,0 +1,67 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db",
+    "public": false
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "myAppUser": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "email": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "adminUser": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "common": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "factionranks": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "factionlists": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "factioncontents": {
+    "dataSource": "mongodb",
+    "public": true
+  }
+}

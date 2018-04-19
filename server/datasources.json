@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongodb": {
+    "host": "172.0.0.1",
+    "port": 27017,
+    "url": "mongodb://aranl:058398ran@localhost:27017/myapp",
+    "database": "myapp",
+    "password": "05838ran",
+    "name": "mongodb",
+    "user": "aranl",
+    "connector": "mongodb"
+  }
+}
